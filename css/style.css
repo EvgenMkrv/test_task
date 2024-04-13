@@ -1,0 +1,75 @@
+.page-contacts {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+}
+
+.contacts-item-header {
+    display: flex;
+    padding: 0 30px;
+    margin-bottom: 10px;
+}
+
+.contacts-item-header-field {
+    display: inline-block;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.contacts-list {
+    margin: 0;padding: 0;
+    list-style: none;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-item-field {
+    display: inline-block;
+    margin-right: 42px;
+    padding: 0 20px;
+    width: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    cursor:pointer;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px 30px;
+}
+
+.message {
+    display: block;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.real-button {
+    margin-left: 30px;
+    margin-top: 10px;
+}
